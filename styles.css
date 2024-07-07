@@ -4,7 +4,7 @@ body {
     padding: 0;
     background: url('https://i.imgur.com/Fpm3iWi.jpg') no-repeat center center fixed;
     background-size: cover;
-    color: #333;
+    color: white;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
