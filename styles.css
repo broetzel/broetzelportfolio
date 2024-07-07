@@ -91,3 +91,23 @@ section {
     padding: 0rem 0;
     margin: 0;
 }
+
+.liftoff {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem; /* Reduced gap */
+    position: relative;
+}
+
+.big-marble {
+    height: 30px; /* Adjust the height to match the buttons */
+    margin: 0 0.2rem; /* Reduced margin to move GIFs closer to buttons */
+    position: relative;
+}
+
+.rocky-rocket {
+    height: 30px; /* Adjust the height to match the buttons */
+    margin: 0 0.2rem; /* Reduced margin to move GIFs closer to buttons */
+    position: relative;
+}
