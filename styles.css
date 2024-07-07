@@ -34,7 +34,7 @@ header .header-new-button button {
 }
 
 header .header-new-button button img {
-    height: 120px; /* Adjust height as needed */
+    height: 120px;
 }
 
 header .header-gif-container {
@@ -45,14 +45,14 @@ header .header-gif-container {
 }
 
 header .header-gif-top-left {
-    height: 60px; /* Adjust height as needed */
+    height: 60px;
 }
 
 header .header-buttons {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem; /* Reduced gap */
+    gap: 0.5rem;
     position: relative;
 }
 
@@ -68,17 +68,17 @@ header .header-buttons button img {
 }
 
 header .header-gif {
-    height: 30px; /* Adjust the height to match the buttons */
-    margin: 0 0.2rem; /* Reduced margin to move GIFs closer to buttons */
+    height: 30px;
+    margin: 0 0.2rem;
     position: relative;
 }
 
 header .header-buttons .about-me-button {
-    left: -20px; /* Increased overlap value */
+    left: -20px;
 }
 
 header .header-buttons .personal-button {
-    right: -20px; /* Increased overlap value */
+    right: -20px;
 }
 
 main {
@@ -96,18 +96,18 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem; /* Reduced gap */
+    gap: 0.5rem;
     position: relative;
 }
 
 .big-marble {
-    height: 30px; /* Adjust the height to match the buttons */
-    margin: 0 0.2rem; /* Reduced margin to move GIFs closer to buttons */
+    height: 30px;
+    margin: 0 0.2rem;
     position: relative;
 }
 
 .rocky-rocket {
-    height: 30px; /* Adjust the height to match the buttons */
-    margin: 0 0.2rem; /* Reduced margin to move GIFs closer to buttons */
+    height: 30px;
+    margin: 0 0.2rem;
     position: relative;
 }
