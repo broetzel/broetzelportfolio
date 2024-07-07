@@ -1,0 +1,108 @@
+body {
+    font-family: 'Consolas', 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: url('https://i.imgur.com/p4Vnvht.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+}
+
+header .header-new-button {
+    margin-bottom: 1rem;
+}
+
+header .header-new-button a {
+    display: inline-block;
+}
+
+header .header-new-button button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+header .header-new-button button img {
+    height: 120px; /* Adjust height as needed */
+}
+
+header .header-gif-container {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+}
+
+header .header-gif-top-left {
+    height: 60px; /* Adjust height as needed */
+}
+
+header .header-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem; /* Reduced gap */
+    position: relative;
+}
+
+header .header-buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+
+header .header-buttons button img {
+    height: 30px;
+}
+
+header .header-gif {
+    height: 30px; /* Adjust the height to match the buttons */
+    margin: 0 0.2rem; /* Reduced margin to move GIFs closer to buttons */
+    position: relative;
+}
+
+header .header-buttons .about-me-button {
+    left: -20px; /* Increased overlap value */
+}
+
+header .header-buttons .personal-button {
+    right: -20px; /* Increased overlap value */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: url('https://i.imgur.com/p4Vnvht.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('https://i.imgur.com/p4Vnvht.png') no-repeat center center;
+    background-size: cover;
+    object-fit: fill;
+    z-index: -1;
+}
+
+footer p {
+    position: relative;
+    z-index: 1;
+}
