@@ -94,16 +94,22 @@ header .header-buttons .personal-button {
     justify-content: center;
     align-items: flex-end; /* Align the container to the bottom */
     height: 100%;
+    position: relative;
 }
 
 .liftoff {
     position: relative;
+    width: 400px; /* Adjust width to match the earth image width */
+    height: auto;
 }
 
 .earth {
     width: 800px; /* Doubled the size */
     height: auto;
-    position: relative;
+    position: absolute;
+    bottom: 0; /* Position at the bottom of the container */
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 2;
 }
 
@@ -111,8 +117,8 @@ header .header-buttons .personal-button {
     width: 200px; /* Adjust size as needed */
     height: auto;
     position: absolute;
-    top: 50%;
+    bottom: 0; /* Position at the bottom of the container */
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     z-index: 1;
 }
