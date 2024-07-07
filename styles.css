@@ -84,32 +84,32 @@ header .header-buttons .personal-button {
 .main-content {
     flex: 1;
     padding: 2rem;
-    /* background-color: rgba(255, 255, 255, 0.8); */ /* Removed semi-transparent background */
 }
 
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    background: url('https://i.imgur.com/p4Vnvht.png') no-repeat center center;
-    background-size: cover;
-    color: white;
+.liftoff-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.liftoff {
     position: relative;
 }
 
-footer::before {
-    content: "";
+.earth {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.rocket {
+    width: 200px; /* Adjust size as needed */
+    height: auto;
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url('https://i.imgur.com/p4Vnvht.png') no-repeat center center;
-    background-size: cover;
-    object-fit: fill;
-    z-index: -1;
-}
-
-footer p {
-    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 1;
 }
