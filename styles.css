@@ -119,7 +119,7 @@ header .header-buttons .personal-button {
     width: 25vh; /* Use viewport height to dynamically resize */
     height: auto;
     position: absolute;
-    bottom: 50px; /* Move up by 50 pixels relative to the bottom of the container */
+    bottom: 100px; /* Move up by 100 pixels relative to the bottom of the container */
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
