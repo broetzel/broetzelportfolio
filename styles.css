@@ -105,13 +105,16 @@ header .header-buttons .personal-button {
     height: auto;
 }
 
-.earth {
-    width: 100%; /* Set width to 100% of the liftoff container */
+.earth-container {
+    position: relative;
+    width: 100%;
     height: auto;
-    position: absolute;
-    bottom: 0; /* Position at the bottom of the container */
-    left: 50%;
-    transform: translateX(-50%);
+}
+
+.earth {
+    width: 100%; /* Set width to 100% of the container */
+    height: auto;
+    position: relative;
     z-index: 2;
 }
 
@@ -119,7 +122,7 @@ header .header-buttons .personal-button {
     width: 25vh; /* Use viewport height to dynamically resize */
     height: auto;
     position: absolute;
-    bottom: calc(100% + 200px); /* Move up by a fixed 50px relative to the bottom of the earth */
+    bottom: 200px; /* Move up by a fixed 50px relative to the bottom of the earth */
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
