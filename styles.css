@@ -100,8 +100,7 @@ header .header-buttons .personal-button {
 
 .liftoff {
     position: relative;
-    width: 100%;
-    max-width: 800px; /* Maximum width to maintain aspect ratio */
+    width: 80vw; /* Use viewport width to dynamically resize */
     height: auto;
 }
 
@@ -116,7 +115,7 @@ header .header-buttons .personal-button {
 }
 
 .rocket {
-    width: 25%; /* Set width to 25% of the liftoff container */
+    width: 25vw; /* Use viewport width to dynamically resize */
     height: auto;
     position: absolute;
     bottom: 50px; /* Move up by 50 pixels relative to the bottom of the container */
