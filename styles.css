@@ -4,7 +4,7 @@ body {
     padding: 0;
     background: url('https://i.imgur.com/Fpm3iWi.jpg') no-repeat center center fixed;
     background-size: cover;
-    color: white;
+    color: #333;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -84,7 +84,7 @@ header .header-buttons .personal-button {
 .main-content {
     flex: 1;
     padding: 2rem;
-    background-color: rgba(255, 255, 255, 0.8); /* Optional: Adds a slight white background for readability */
+    /* background-color: rgba(255, 255, 255, 0.8); */ /* Removed semi-transparent background */
 }
 
 footer {
