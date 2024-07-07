@@ -83,13 +83,16 @@ header .header-buttons .personal-button {
 
 .main-content {
     flex: 1;
+    display: flex;
+    align-items: flex-end; /* Align the content to the bottom */
+    justify-content: center; /* Center the content horizontally */
     padding: 2rem;
 }
 
 .liftoff-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end; /* Align the container to the bottom */
     height: 100%;
 }
 
