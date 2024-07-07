@@ -98,7 +98,7 @@ header .header-buttons .personal-button {
 }
 
 .earth {
-    width: 400px; /* Doubled the size */
+    width: 1200px; /* Doubled the size */
     height: auto;
     position: relative;
     z-index: 2;
